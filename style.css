@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    color: white;
+}
+ *{
+    margin: 0;
+ }
+.mainhead{
+    height: 200px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #b7b7b7;
+    transition: 2s;
+    font-family: "Roboto";
+
+}
+p{
+    color: #b7b7b7;
+}
+.brandhead{
+    margin: 0;
+    cursor: pointer;
+}
+.brandhead:hover{
+    color: red;
+}
+.brandtext{
+    margin-bottom: 0;
+    margin-top: 4px;
+    letter-spacing: 0.3rem;
+}
+.navigation{
+    align-items: center;
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, .55);
+    border: 0;
+
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: red;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(252, 4, 4, 0.75);
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    transition: 1s;
+}
+.dropdown{
+    color: red;
+}
+img{
+    cursor: pointer;
+}
+.contetntimg{
+    width: 100%;
+}
+.contetntimg img{
+    width: 100%;
+}
+
+.firstimg{
+    width: 60%;
+    margin-left: auto;
+}
+.firstpara{
+    width: 40%;
+    margin-right: auto;
+    
+}
+.secondimg{
+    width: 60%;
+    margin-right: auto;
+}
+.secondpara{
+    width: 40%;
+    margin-left: auto;
+}
+.footertext{
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+}
+.namelink:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .firstimg{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    .firstpara{
+        margin-left: 10px !important;
+        margin-right: 10px;
+        padding: 10px 20px;
+        justify-content: center;
+        width: 100%;
+    }
+    .secondpara{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px 20px;
+        justify-content: center;
+        width: 100%;
+    }
+    .secondimg{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+    }
+    
+}
